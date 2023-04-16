@@ -41,4 +41,7 @@ module.exports = {
         extensions: ['.ts', '.tsx', '.js', '.json'],
     },
     target: 'web',
+    experiments: {
+        asyncWebAssembly: true,
+    }
 };

@@ -1,5 +1,7 @@
+import { greet } from 'mywasm';
 import React from 'react';
-
 export const App: React.FC = () => {
-    return <div>Hello World!</div>
+    greet("Takeshi");
+
+    return <div>Hello</div>
 }
